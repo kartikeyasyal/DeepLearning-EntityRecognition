@@ -1,0 +1,35 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2706
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 # Named Entity Recognition (NER) using Deep Learning\
+\
+This repository contains a deep learning model built for Named Entity Recognition (NER) on the CoNLL-2003 corpus.\
+\
+## Overview\
+\
+The project is divided into two main tasks:\
+\
+- **Task 1**: Building a simple bidirectional LSTM model for NER.\
+- **Task 2**: Enhancing the LSTM model by incorporating GloVe word embeddings.\
+\
+## Data\
+\
+The dataset is divided into train, dev, and test sets. The train and dev sets contain sentences with human-annotated NER tags. The test set contains only raw sentences.\
+\
+GloVe embeddings provided: `glove.6B.100d.gz`\
+\
+## Results\
+\
+*For detailed results, see the Results folder.*\
+\
+- Task 1: Achieved an F1 score of 75% on the dev data.\
+- Task 2: Achieved an F1 score of 80% on the dev data after incorporating GloVe embeddings.\
+\
+## Usage\
+\
+To evaluate the results, use the provided `conll03eval` script.\
+}
